@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:wght@400;700&display=swap');
+
+* {
+    font-family: B612 Mono;
+}
+
+body {
+    background: black;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid white;
+    width: 40%;
+}
+
+td, th {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+td :nth-child(odd) {
+    background: #be4f90;
+}
+
+td {
+    color: white;
+    background: #ff77cb;
+}
+
+th {
+    background: #95006c;
+    color: white;
+}
+
